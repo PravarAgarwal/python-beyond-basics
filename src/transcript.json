@@ -1,0 +1,110 @@
+[
+  {
+    "timestamp": [0, 3.96],
+    "text": " Alright, let's move on to the next question."
+  },
+  {
+    "timestamp": [3.96, 6],
+    "text": " What are closures in Python?"
+  },
+  {
+    "timestamp": [6, 7],
+    "text": " Closures."
+  },
+  {
+    "timestamp": [7, 12.96],
+    "text": " I've heard the term, but I'm not entirely sure how they work."
+  },
+  {
+    "timestamp": [12.96, 17.44],
+    "text": " Well, let's understand them with a simple example."
+  },
+  {
+    "timestamp": [17.44, 22.48],
+    "text": " Imagine we want to create functions that multiply a number by a specific value."
+  },
+  {
+    "timestamp": [22.48, 25.24],
+    "text": " One that doubles a number, another that triples it."
+  },
+  {
+    "timestamp": [26.64, 29.8],
+    "text": " Here we have a function inside another function."
+  },
+  {
+    "timestamp": [29.8, 33.28],
+    "text": " The inner function multiply uses the variable factor,"
+  },
+  {
+    "timestamp": [33.28, 35.04],
+    "text": " which is defined in the outer function."
+  },
+  {
+    "timestamp": [36.16, 39.68],
+    "text": " Now let's create two functions using make multiplier."
+  },
+  {
+    "timestamp": [40.6, 43.8],
+    "text": " The first call creates a function that remembers two."
+  },
+  {
+    "timestamp": [43.8, 46.6],
+    "text": " The second creates one that remembers three."
+  },
+  {
+    "timestamp": [46.6, 50],
+    "text": " And just like that, we have two different functions,"
+  },
+  {
+    "timestamp": [50, 53],
+    "text": " each remembering its own multiplier."
+  },
+  {
+    "timestamp": [53, 59],
+    "text": " So what happens to factor once make_multiplier finishes executing?"
+  },
+  {
+    "timestamp": [59, 64.4],
+    "text": " Well, I suppose it should no longer be accessible once the function returns,"
+  },
+  {
+    "timestamp": [64.4, 66.4],
+    "text": " but double(5) still works."
+  },
+  {
+    "timestamp": [66.4, 68.4],
+    "text": " That's interesting."
+  },
+  {
+    "timestamp": [68.4, 70.4],
+    "text": " Exactly."
+  },
+  {
+    "timestamp": [70.4, 77.6],
+    "text": " Even after the outer function finishes executing, the inner function retains access to variables from its enclosing scope."
+  },
+  {
+    "timestamp": [77.6, 79.6],
+    "text": " This is called a closure."
+  },
+  {
+    "timestamp": [79.6, 84.8],
+    "text": " Essentially, its function bundled with access to variables from its enclosing scope."
+  },
+  {
+    "timestamp": [84.8, 88.52],
+    "text": " That's actually pretty clever."
+  },
+  {
+    "timestamp": [88.52, 90.8],
+    "text": " Hmm, interesting."
+  },
+  {
+    "timestamp": [90.8, 93.16],
+    "text": " Let's move on to the next question."
+  },
+  {
+    "timestamp": [93.16, null],
+    "text": " And what if we could use this to add functionality to existing functions without changing their rotational code? That's where decorators come in."
+  }
+]
